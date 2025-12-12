@@ -1,11 +1,14 @@
 import { useState } from 'react'
 import './App.css'
+import Header from './components/Header'
+import Body from './components/Body'
 
 function App() {
 
   return (
     <>
-      <h1 className='text-3xl text-green-800'>Netflix-GPT</h1>
+      <Header/>
+      <Body/>
     </>
   )
 }
